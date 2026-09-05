@@ -1,0 +1,22 @@
+{
+  "name": "america-prime-inmobiliaria",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio inmobiliario Valle Verde América Prime con HTML, CSS, jQuery y Bootstrap",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "vendor": "node scripts/vendor.mjs",
+    "postinstall": "node scripts/vendor.mjs",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "bootstrap": "5.3.8",
+    "jquery": "3.7.1",
+    "bootstrap-icons": "1.13.1",
+    "@fontsource/playfair-display": "5.2.8",
+    "@fontsource/plus-jakarta-sans": "5.2.8"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}
