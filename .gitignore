@@ -1,0 +1,8 @@
+/mockups/
+
+# Archivos locales y credenciales
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
